@@ -1,0 +1,42 @@
+<head>
+	<title>1-wall</title>
+</head>
+
+<body>
+	{{> wall}}
+</body>
+
+<template name="wall">
+	<div class="container-fluid">
+		<h1 class="title"> {{title}}</h1>
+		<button class='btn btn-primary clear'>Reset</button>
+		<button class='colour1 btn'></button>
+		<button class='colour2 btn'></button>
+		<button class='colour3 btn'></button>
+		<button class='colour4 btn'></button>
+		<button class='colour5 btn'></button>
+		<button class='colour6 btn'></button>
+		<button class='colour7 btn'></button>
+		<button class='colour8 btn'></button>
+		<button class='colour9 btn'></button>
+		<button class='colour10 btn'></button>
+		<button class='colour11 btn'></button>
+		<button class='colour12 btn'></button>
+
+		<form>
+			<h3>Custom Colour picker:  </h3>
+			<input type="color" id="customColour" value="#FFFFFF" class="customCol">
+			<h3>Background colour: </h3>
+			<br>
+			<input type="color" id="background" value="#FFFFFF" class="customBack">
+			<br>
+			<h3 class="thkness">Thickness</h3>
+			<input type="range" id='thick'> </form>
+
+		{{> canvas}}
+	</div>
+</template>
+
+<template name="canvas">
+	<div id='canvas'></div>
+</template>

@@ -1,0 +1,74 @@
+.base,
+.colour1,
+.colour2,
+.colour3,
+.colour4,
+.colour5,
+.colour6,
+.colour7,
+.colour8,
+.colour9,
+.colour10,
+.colour11,
+.colour12 {
+	width: 95px;
+	height: 45px;
+}
+.title {
+	text-align: center;
+	margin: 2%;
+}
+.thkness {
+	text-decoration: underline;
+	text-align: center;
+}
+h3 {
+	float: left;
+}
+#customColour,
+#background {
+	float: left;
+}
+.customCol {
+	margin: 20px 50px 0 20px;
+}
+.customBack {
+	margin: 0 0 0 20px;
+}
+.colour1 {
+	background-color: red;
+}
+.colour2 {
+	background-color: blue;
+}
+.colour3 {
+	background-color: green;
+}
+.colour4 {
+	background-color: white;
+	border: 1px solid black;
+}
+.colour5 {
+	background-color: yellow;
+}
+.colour6 {
+	background-color: black;
+}
+.colour7 {
+	background-color: purple;
+}
+.colour8 {
+	background-color: pink;
+}
+.colour9 {
+	background-color: brown;
+}
+.colour10 {
+	background-color: aqua;
+}
+.colour11 {
+	background-color: grey;
+}
+.colour12 {
+	background-color: orange;
+}
